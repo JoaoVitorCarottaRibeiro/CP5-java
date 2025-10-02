@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class ConnectionFactory {
     private static final String URL =
-            System.getenv().getOrDefault("ORACLE_URL","jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl");
+            System.getenv().getOrDefault("ORACLE_URL","jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL");
     private static final String USER =
             System.getenv().getOrDefault("ORACLE_USER", "RM");
     private static final String PASS =
